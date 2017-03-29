@@ -1,9 +1,9 @@
 $(document).ready(function(){
   
   //Place your code here
-  
+  var dice = Math.floor(Math.random() * 6) + 1;
   $("#roll-dice").click(function() {
-    $("p").append("1 2 3 4 5 6");
+    $("p").html(Math.floor(Math.random() * 6)+1);
   });
   
   
